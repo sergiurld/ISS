@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="253.0" prefWidth="401.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="57.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add New Car to Your Fleet" textAlignment="CENTER" wrappingWidth="287.13671875">
+         <font>
+            <Font name="Tw Cen MT" size="24.0" />
+         </font>
+      </Text>
+      <TextField layoutX="37.0" layoutY="70.0" promptText="Make" />
+      <TextField layoutX="37.0" layoutY="105.0" promptText="Model" />
+      <TextField layoutX="37.0" layoutY="140.0" promptText="Fuel" />
+      <TextField layoutX="37.0" layoutY="173.0" promptText="VIN" />
+      <TextField layoutX="37.0" layoutY="209.0" promptText="Year" />
+      <TextField layoutX="215.0" layoutY="173.0" promptText="Km" />
+      <TextField layoutX="215.0" layoutY="70.0" promptText="Color" />
+      <TextField layoutX="215.0" layoutY="105.0" promptText="Seats Number" />
+      <TextField layoutX="215.0" layoutY="140.0" promptText="Power: HP" />
+      <Button layoutX="215.0" layoutY="209.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="150.0" text="ADD CAR">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

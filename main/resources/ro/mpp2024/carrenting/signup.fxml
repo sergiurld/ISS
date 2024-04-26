@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ChoiceBox layoutX="21.0" layoutY="322.0" prefHeight="26.0" prefWidth="186.0" />
+        <TextField layoutX="21.0" layoutY="211.0" prefHeight="26.0" prefWidth="186.0" promptText="Username" />
+        <PasswordField layoutX="21.0" layoutY="247.0" prefHeight="26.0" prefWidth="186.0" promptText="Password" />
+        <Button layoutX="21.0" layoutY="360.0" mnemonicParsing="false" text="Sign-up" />
+        <Button layoutX="108.0" layoutY="360.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="102.0" text="Back to Login" textAlignment="CENTER" />
+        <Text layoutX="69.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome " wrappingWidth="90.40000000000009">
+            <font>
+                <Font name="Bernard MT Condensed" size="24.0" />
+            </font>
+        </Text>
+      <PasswordField layoutX="21.0" layoutY="284.0" prefHeight="26.0" prefWidth="186.0" promptText="Re-enter Password " />
+      <TextField layoutX="21.0" layoutY="176.0" prefHeight="26.0" prefWidth="186.0" promptText="CNP" />
+      <TextField layoutX="21.0" layoutY="140.0" prefHeight="26.0" prefWidth="186.0" promptText="Phone" />
+      <TextField layoutX="21.0" layoutY="105.0" prefHeight="26.0" prefWidth="186.0" promptText="Address" />
+      <TextField layoutX="21.0" layoutY="69.0" prefHeight="26.0" prefWidth="186.0" promptText="Name" />
+    </children>
+</AnchorPane>
